@@ -1,0 +1,31 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+baseurl: '/NetsourceLX'
+url: http://yoursite.com
+title: Netsource LX
+email: info@netsourceinteractive.com
+author: Jinlong Zhang
+description: Netsource Learning Experience
+copyright: 'Copyright &copy; 2016 Netsource Interactive, Inc. All Rights Reserved.'
+credits:
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url:
+  - title: github
+    url:
+  - title: linkedin
+    url: 

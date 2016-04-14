@@ -1,0 +1,10 @@
+---
+layout: default
+img: ipad.png
+category: Services
+title: Our Approach
+description: |
+---
+We begin our work with determining the "Optimal Sweet Spot" that will generate the best business outcome.
+
+We then prototype, build and deploy this "Optimal Sweet Spot" using a focused team of point-of-need resources and a blended on-shore and off-shore model
