@@ -2469,7 +2469,7 @@ p.copyright { margin: 15px 0 0; }
 @media (max-width: 960px) { .intro-header { padding-top: 25px; padding-bottom: 25px; }
   .intro-container { flex-direction: column-reverse; }
   .intro-message { font-size: 42px; flex-basis: auto; width: 100%; }
-  .intro-header.els .intro-message { font-size: 30px; }
+  .intro-header.els .intro-message { font-size: 30px; background: rgba(255, 255, 255, 0.55); }
   .intro-media { flex-basis: auto; }
   .intro-header.els .intro-media { height:0px; }
   .intro-media img { width: 90%; }
