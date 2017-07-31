@@ -2405,6 +2405,8 @@ h6 { font-size: 0.667rem; }
 
 .intro-message { margin: 0px; display: flex; justify-content: center; flex-direction: column; font-size: 50px; font-weight: 400; flex-basis: 60%; color: #212121; }
 
+.intro-header.els .intro-message { font-size: 35px; }
+
 .intro-media { flex-basis: 35%; }
 
 .intro-header.els .intro-media { height:378px; }
@@ -2418,6 +2420,8 @@ h6 { font-size: 0.667rem; }
 .sub-intro-container { background-color: #212121; }
 
 .sub-intro-message { text-align: center; font-size: 36px; color: #ffffff; padding: 1rem 2%; font-weight: 300; }
+
+.intro-header.els .sub-intro-message { font-size: 28px; }
 
 .network-name { text-transform: uppercase; font-size: 14px; font-weight: 400; letter-spacing: 2px; }
 
@@ -2466,7 +2470,7 @@ p.copyright { margin: 15px 0 0; }
   .intro-container { flex-direction: column-reverse; }
   .intro-message { font-size: 42px; flex-basis: auto; width: 100%; }
   .intro-media { flex-basis: auto; }
-  .intro-header.els .intro-media { height:90px; }
+  .intro-header.els .intro-media { height:0px; }
   .intro-media img { width: 90%; }
   .sub-intro-message { font-size: 32px; } }
 @media (max-width: 768px) { .content-section-container-col-1 { flex-direction: row; }
