@@ -86,9 +86,7 @@
         <!-- /.container -->
     </div>
     <!-- /.intro-header -->
-    <div class="sub-intro-message" style="padding:0rem;">
-        <a href="/press-release-may-2018"><img width="100" src="/img/press-release.png"></a>
-        <a href="/press-release-may-2018" style="font-size:20px;">View Press Release</a>
+    <div class="sub-intro-message" style="height:67px;">
     </div>
     <div class="sub-intro-container els">
         <div class="sub-intro-message">The Early Learning Suite is the only integrated platform that supports Early Childhood Education. It is highly customizable to meet the unique needs of each state.  It consists of the following modules:</div>
@@ -148,50 +146,8 @@
                     <div class="content-section-item content-section-item-lg">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">Childcare Subsidy</h2>
                         <div class="lead">
-                            <p>A user friendly module that allows caseworkers and childcare centers the ability to process applications and renewals for subsidized childcare.  This includes eligibility determination and an electronic case folder with required eligibility documents.  This module also can handle family co-payments, renewals and appeals.</p>
-                        </div>
-                    </div>
-                    <div class="content-section-item content-section-item-sm">
-                        <img class="img-responsive" src="/img/childcare-subsidy.png" alt="Childcare Subsidy">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="content-section-container content-section-container-col-2">
-                    <div class="content-section-item content-section-item-lg">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">Attendance Module</h2>
-                        <div class="lead">
-                            <p>Includes a mobile friendly web application that allows parents or guardians the ability to mark attendance (Check-in and Check-out) with a confirmation from the childcare centers.  This enables payments to providers and tools to integrate with state-based financial systems.</p>
-                        </div>
-                    </div>
-                    <div class="content-section-item content-section-item-sm">
-                        <img class="img-responsive" src="/img/attendance-module.png" alt="Attendance Module">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="content-section-container content-section-container-col-2">
-                    <div class="content-section-item content-section-item-lg">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <div class="lead">
-                            <p>In addition to the above modules, this platform can provide information to a <strong>parent's portal</strong> with updated information from center directors (via the Director Portal) and <strong>QRIS data</strong> on each center.</p>
+                            <p>In addition to the above modules, this platform can provide information from center directors (via the Director Portal) and <strong>QRIS data</strong> on each center.</p>
                         </div>
                     </div>
                     <div class="content-section-item content-section-item-sm">
@@ -346,7 +302,7 @@
                         </div>
                     </div>
                     <div class="content-section-item content-section-item-sm">
-<!--                        <img class="img-responsive" src="/img/address.png" alt="">-->
+                        <!--                        <img class="img-responsive" src="/img/address.png" alt="">-->
                     </div>
                 </div>
             </div>
@@ -391,12 +347,16 @@
                         <a href="http://www.netsourceinteractive.com/legal/LX-PRIVACY">Privacy Policy</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; 2016 Netsource Interactive, Inc. All Rights
+                <p class="copyright text-muted small">Copyright &copy; <span id="year"></span> Netsource Interactive, Inc. All Rights
                     Reserved.</p>
             </div>
         </div>
     </div>
 </footer>
+
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
 <!-- jQuery Version 1.11.0 -->
 <script src="/js/jquery-1.11.0.js"></script>
