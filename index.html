@@ -380,11 +380,15 @@
                         <a href="http://www.netsourceinteractive.com/legal/LX-PRIVACY">Privacy Policy</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; 2016 Netsource Interactive, Inc. All Rights Reserved.</p>
+                <p class="copyright text-muted small">Copyright &copy; <span id="year"></span> Netsource Interactive, Inc. All Rights Reserved.</p>
             </div>
         </div>
     </div>
 </footer>
+    
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
 <!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
